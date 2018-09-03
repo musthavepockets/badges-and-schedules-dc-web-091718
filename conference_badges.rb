@@ -14,3 +14,8 @@ def assign_rooms(guests)
   guests_with_rooms = guests.collect.with_index { |guest, index| "Hello, #{guest}! You'll be assigned to room #{index + 1}!"}
   guests_with_rooms
 end
+
+def printer
+  puts each.batch_badge_creator(speakers)
+  puts each.assign_rooms(guests)
+end  
