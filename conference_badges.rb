@@ -12,5 +12,5 @@ end
 
 def assign_rooms(guests)
   guests_with_rooms = guests.collect { |guest, index| "Hello, #{guest}! You'll be assigned to room #{index}!"}
-  guests
+  guests_with_rooms
 end
