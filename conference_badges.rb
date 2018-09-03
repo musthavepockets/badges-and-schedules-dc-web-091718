@@ -11,6 +11,6 @@ def batch_badge_creator(speakers)
 end 
 
 def assign_rooms(guests)
-  guests.collect { |guest, index| "Hello, #{guest}! You'll be assigned to room #{index + 1}!"}
+  guests.collect { |guest, index| "Hello, #{guest}! You'll be assigned to room #{index}!"}
   guests
 end
